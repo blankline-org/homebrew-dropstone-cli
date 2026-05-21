@@ -1,28 +1,28 @@
 class Dropstone < Formula
   desc "Dropstone CLI — agentic coding for your terminal"
   homepage "https://dropstone.io"
-  version "1.0.0"
+  version "1.0.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://download.dropstone.io/v1.0.0/dropstone-darwin-arm64.zip"
-      sha256 "f87e98eb2c1fb46814eb1532287f4d13fd71e0dea2f911601ea79abec0c0134b"
+      url "https://download.dropstone.io/v1.0.1/dropstone-darwin-arm64.zip"
+      sha256 "c3a1018647789884eab307669da166db7eac9faf4a2b823a379f69f00c19a040"
     end
     on_intel do
-      url "https://download.dropstone.io/v1.0.0/dropstone-darwin-x64.zip"
-      sha256 "55bee81fafb8c5f68f5a7e906f31b3325ed249d8477d2b3acfc7739870783cca"
+      url "https://download.dropstone.io/v1.0.1/dropstone-darwin-x64.zip"
+      sha256 "01c1a00ac377cf63e2c4685103ae28a15f530c9772fa88572e5539b2ed451964"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://download.dropstone.io/v1.0.0/dropstone-linux-arm64.tar.gz"
-      sha256 "b7555c6a2e389803f43d783c728abb163007c4c78ee9e658b07fe6dbd196cab1"
+      url "https://download.dropstone.io/v1.0.1/dropstone-linux-arm64.tar.gz"
+      sha256 "ed2de27009d05ee51fbaf940bacdc0d6d8f8128fe095c6a212cac6350af90cae"
     end
     on_intel do
-      url "https://download.dropstone.io/v1.0.0/dropstone-linux-x64.tar.gz"
-      sha256 "820fc5a575775aeaec86513ec43770b6b223a72c9b1f46d5310f50ae505df0a9"
+      url "https://download.dropstone.io/v1.0.1/dropstone-linux-x64.tar.gz"
+      sha256 "648360854accad33da7f73079fa4d88cc6fc47cf41037ce8feb259b0214a5798"
     end
   end
 
